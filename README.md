@@ -7,6 +7,6 @@ Als MVP zou wat ons betreft een (web) app die je de mogelijkheid geeft om te zoe
 
 Op de lange termijn zijn we ook geïnteresseerd in uitbreiding van de functionaliteit naar (en integratie met) iets zoals [jouw-stem.nl](jouw-stem.nl), waar de gebruiker niet alleen informatie kan vinden en ontvangen maar ook terug kan koppelen (aan bijvoorbeeld zijn/haar gemeente of andere organisaties) en/of met anderen kan delen.
 
-Het idee voor KamerKijker is ontstaan in Tech4Society, een kleine maar groeiende verzameling tech-enthousiastelingen die hun kennis en vaardigheden graag willen inzetten ten behoeve van de maatschappij. Voor meer info, zie de (tot nu toe erg beknopte) [wiki](https://r2.miraheze.org/wiki/Tech4Society_(NL)), of stuur een berichtje naar @jneeven (op bijvoorbeeld [LinkedIn](https://www.linkedin.com/in/jelmer-neeven/)).
+Het idee voor KamerKijker is ontstaan in Tech4Society, een kleine maar groeiende verzameling tech-enthousiastelingen die hun kennis en vaardigheden graag willen inzetten ten behoeve van de maatschappij. Voor meer info, zie de (tot nu toe erg beknopte) [wiki](https://r2.miraheze.org/wiki/Tech4Society_(NL)), of stuur een berichtje naar [@jneeven](https://github.com/jneeven) (op bijvoorbeeld [LinkedIn](https://www.linkedin.com/in/jelmer-neeven/)).
 
 Alle hulp (van ideeën tot testers tot code contributions) is ontzettend welkom!
