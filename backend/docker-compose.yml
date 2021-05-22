@@ -1,15 +1,15 @@
 version: '3'
 services:
-    postgres:
-      image: postgres:11.5
-      container_name: IT-kk-database
-      ports:
-        - 5432:5432
-      environment:
-        - POSTGRES_DB=kk
-        - POSTGRES_USER=postgres
-        - POSTGRES_PASSWORD=postgres
-  postgres-it:
+  kk-postgres:
+    image: postgres:11.5
+    container_name: IT-kk-database
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=kk
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+  kk-postgres-it:
     image: postgres:11.5
     container_name: kk-database-it
     ports:
