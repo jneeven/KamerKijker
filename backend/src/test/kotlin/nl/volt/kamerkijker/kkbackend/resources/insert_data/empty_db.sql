@@ -1,0 +1,1 @@
+delete from dtg_version_list
