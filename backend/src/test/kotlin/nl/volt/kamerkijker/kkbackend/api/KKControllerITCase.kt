@@ -19,7 +19,6 @@ class KKControllerITCase : AbstractITCase() {
   @DisplayName("First test")
   fun firstTest() {
     assertEquals(42, 42)
-
   }
 
 
