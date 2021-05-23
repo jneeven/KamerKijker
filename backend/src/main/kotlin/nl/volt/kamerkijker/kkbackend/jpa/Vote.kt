@@ -9,15 +9,15 @@ data class Vote (
     val id: Long,
 
     @Enumerated(EnumType.STRING)
-    val result: Result,
+    val result: Result?,
 
-    val votes: Int,
+    val votes: Int?,
 
     @ManyToOne
-    val motion: Motion,
+    val motion: Motion?,
 
     @OneToOne
-    val party: Party
+    val party: Party?
     )
 
 

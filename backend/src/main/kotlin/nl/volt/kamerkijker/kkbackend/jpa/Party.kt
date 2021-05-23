@@ -10,6 +10,6 @@ import javax.persistence.Table
 data class Party(
   @Id @GeneratedValue
   val id: Long,
-  val name: String,
-  val code: String
+  val name: String?,
+  val code: String?
 )

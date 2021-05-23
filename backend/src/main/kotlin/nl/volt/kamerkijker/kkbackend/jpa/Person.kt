@@ -8,11 +8,12 @@ import javax.persistence.*
 data class Person(
   @Id @GeneratedValue
   val id: Long,
-  val firstName: String,
-  val lastName: String,
+  val firstName: String?,
+  val lastName: String?,
 
   @JsonIgnore
   @ManyToOne
-  val party: Party
+  val party: Party?
 
-)
+) {
+}

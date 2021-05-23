@@ -8,28 +8,28 @@ import javax.persistence.*
 data class Motion(
   @Id @GeneratedValue
   val id: Long,
-  val motieId: Long,
+  val motieId: Long?,
 
-  val title: String,
-  val submitDate: ZonedDateTime,
-  val voteDate: ZonedDateTime,
-  val document: String,
-  val votesTotal: Int,
-
-  @OneToOne
-  val first_signatory: Person?,
-
-  @OneToOne
-  val second_signatory: Person?,
-
-  @OneToOne
-  val coSubmitter: Person?,
-
-  @OneToOne
-  val submitter: Person,
+  val title: String?,
+  val submitDate: ZonedDateTime?,
+  val voteDate: ZonedDateTime?,
+  val document: String?,
+  val votesTotal: Int?,
 
   @OneToMany
-  val votes: List<Vote>,
+  val firstSignatory: List<Person>?,
+
+  @OneToMany
+  val secondSignatory: List<Person>?,
+
+  @OneToMany
+  val coSubmitter:  List<Person>?,
+
+  @OneToMany
+  val submitter: List<Person>?,
+
+  @OneToMany
+  val votes: List<Vote>?,
 
   @OneToOne
   val modifiedMotion: Motion?
