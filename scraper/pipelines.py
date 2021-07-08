@@ -18,7 +18,8 @@ class DatabasePipeline:
         spider.db = self.db
 
     def close_spider(self, spider):
-        self.client.close()
+        # self.client.close()
+        pass
 
     def process_item(self, item, spider):
         item = ItemAdapter(item).asdict()
